@@ -6,8 +6,36 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
+.App{
+  background-color: #222831;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+.head-width{
+  width: calc(100% - 10px);
+}
+
 .main-padding-head{
   padding: 0 10%;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #eee;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: #00adb5;
+}
+
+::-webkit-scrollbar-track{
+  background-color: #f1f1f117;
 }
 
 @media only screen and (min-width: 1201px) and (max-width:1400px){
