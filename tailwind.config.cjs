@@ -10,7 +10,8 @@ module.exports = {
       'bg-general':'#222831',
       'color-text':'#eee',
       'color-border':'#ededed1a',
-      'main-color-text':'#00adb5'
+      'main-color-text':'#00adb5',
+      'bg-second-btn': '#393e46b3'
     }
   },
   plugins: [],

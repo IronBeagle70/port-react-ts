@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import HeaderComponent from './components/HeaderComponent'
 import SectionComponent from './components/SectionComponent'
+import Welcome from './components/Welcome'
 // import reactLogo from './assets/react.svg'
 // import './App.css'
 
@@ -11,7 +12,7 @@ function App() {
     <div className="App">
       <HeaderComponent />
       <SectionComponent id='welcome'>
-        <p>Welcome to my Website</p>
+        <Welcome />
       </SectionComponent>
       <SectionComponent id='about' >
         <p>About me</p>
