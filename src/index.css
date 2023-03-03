@@ -18,6 +18,10 @@ body{
   width: calc(100% - 10px);
 }
 
+.head-padding{
+  padding: 16px;
+}
+
 .workspace{
   margin: auto;
   width: 80%;
@@ -86,6 +90,9 @@ body{
 }
 
 @media only screen and (max-width:600px){
+  .head-padding{
+    padding: 16px 12px;
+  }
   ::-webkit-scrollbar{
     width: 5px;
   }
@@ -94,7 +101,14 @@ body{
   }
 }
 
-@media only screen and (max-width:800px){
+@media only screen and (max-width:300px){
+  .head-padding{
+    padding: 16px 8px;
+  }
+}
+
+
+@media only screen and (max-width:920px){
   .title-center{
     align-items: center;
     justify-content: center;
