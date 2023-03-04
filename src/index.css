@@ -73,6 +73,18 @@ body{
   padding: 0 10%;
 }
 
+#footer{
+  border-top: 1px solid #ededed1a;
+  display: flex;
+  height: -webkit-max-content;
+  height: max-content;
+  min-height: 300px;
+  padding-bottom: 1rem;
+  padding-top: 6.25rem;
+  position: relative;
+  width: 100%;
+}
+
 ::-webkit-scrollbar{
   width: 10px;
 }

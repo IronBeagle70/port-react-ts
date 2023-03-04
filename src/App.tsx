@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Contact from './components/Contact'
 import HeaderComponent from './components/HeaderComponent'
 import SectionComponent from './components/SectionComponent'
 import Welcome from './components/Welcome'
@@ -17,8 +18,11 @@ function App() {
       <SectionComponent id='about' >
         <p>About me</p>
       </SectionComponent>
+      <SectionComponent id='projects' >
+        <p>Projects</p>
+      </SectionComponent>
       <SectionComponent id='contact' >
-        <p>My contact</p>
+        <Contact />
       </SectionComponent>
       <SectionComponent id='footer' >
         <p>Footer</p>

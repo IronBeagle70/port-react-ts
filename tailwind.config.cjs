@@ -11,7 +11,8 @@ module.exports = {
       'color-text':'#eee',
       'color-border':'#ededed1a',
       'main-color-text':'#00adb5',
-      'bg-second-btn': '#393e46b3'
+      'bg-second-btn': '#393e46b3',
+      'bg-icons':'#737373'
     }
   },
   plugins: [],
