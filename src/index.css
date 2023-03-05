@@ -78,11 +78,18 @@ body{
   display: flex;
   height: -webkit-max-content;
   height: max-content;
-  min-height: 300px;
-  padding-bottom: 1rem;
-  padding-top: 6.25rem;
+  min-height: 250px;
+  padding-top: 0;
   position: relative;
   width: 100%;
+}
+
+.footer-icons {
+  display: inline-flex;
+  vertical-align: middle;
+  margin-right: 0.625rem;
+  width: 24px;
+  height: 24px;
 }
 
 ::-webkit-scrollbar{

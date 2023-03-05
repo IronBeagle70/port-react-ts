@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Contact from './components/Contact'
+import FooterSection from './components/FooterSection'
 import HeaderComponent from './components/HeaderComponent'
 import SectionComponent from './components/SectionComponent'
 import Welcome from './components/Welcome'
@@ -25,7 +26,7 @@ function App() {
         <Contact />
       </SectionComponent>
       <SectionComponent id='footer' >
-        <p>Footer</p>
+        <FooterSection />
       </SectionComponent>
     </div>
   )

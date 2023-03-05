@@ -13,17 +13,17 @@ export default function Contact() {
                 <div>
                     <ul className='flex items-center justify-center'>
                         <li className='mx-4'>
-                            <a href="" className='text-bg-icons text-2xl min-[350px]:text-3xl min-[425px]:text-4xl sm:text-5xl ' >
+                            <a href="/" target="_blank" rel="noopener noreferrer" className='text-bg-icons text-2xl min-[350px]:text-3xl min-[425px]:text-4xl sm:text-5xl ' >
                                 <FaFacebook />
                             </a>
                         </li>
                         <li className='mx-4'>
-                            <a href="" className='text-bg-icons text-2xl min-[350px]:text-3xl min-[425px]:text-4xl sm:text-5xl '>
+                            <a href="https://github.com/IronBeagle70" target="_blank" rel="noopener noreferrer" className='text-bg-icons text-2xl min-[350px]:text-3xl min-[425px]:text-4xl sm:text-5xl '>
                                 <FaGithub />
                             </a>
                         </li>
                         <li className='mx-4'>
-                            <a href="" className='text-bg-icons text-2xl min-[350px]:text-3xl min-[425px]:text-4xl sm:text-5xl '>
+                            <a href="https://www.linkedin.com/in/alvaro-mateo-mendoza-capcha-27907a248/" target="_blank" rel="noopener noreferrer" className='text-bg-icons text-2xl min-[350px]:text-3xl min-[425px]:text-4xl sm:text-5xl '>
                                 <FaLinkedin />
                             </a>
                         </li>
