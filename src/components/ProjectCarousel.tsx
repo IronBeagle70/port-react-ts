@@ -11,7 +11,7 @@ export default function ProjectCarousel({filteredProjects}: ProjectCarouselProps
 
     return (
         <div>
-            <div>
+            <div className='flex'>
                 {
                     filteredProjects.map(project =>(
                         <ProjectCard key={project.id} project={project} />

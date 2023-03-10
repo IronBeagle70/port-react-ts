@@ -2,7 +2,7 @@ import {ProjectCategory} from './interfaces/ProjectCategory';
 
 export const projects: ProjectCategory[] = [
     {
-        category: 'vanilla',
+        category: 'Vanilla',
         projects: [
             {
             id: 1,
@@ -23,7 +23,7 @@ export const projects: ProjectCategory[] = [
         ]
     },
     {
-        category: 'frontReact',
+        category: 'Front-React',
         projects: [
             {
             id: 3,
@@ -60,7 +60,7 @@ export const projects: ProjectCategory[] = [
         ]
     },
     {
-        category: 'backend',
+        category: 'Backend',
         projects: [
             {
             id: 7,
