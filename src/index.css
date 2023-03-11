@@ -92,6 +92,10 @@ body{
   height: 24px;
 }
 
+.li-card{
+  width: calc(((100% + 1rem) / 3) - 1rem);
+}
+
 ::-webkit-scrollbar{
   width: 10px;
 }

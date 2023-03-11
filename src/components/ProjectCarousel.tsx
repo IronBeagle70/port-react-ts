@@ -10,14 +10,14 @@ interface ProjectCarouselProps{
 export default function ProjectCarousel({filteredProjects}: ProjectCarouselProps) {
 
     return (
-        <div>
-            <div className='flex'>
+        <ul className='flex overflow-x-scroll touch:overflow-x-auto scroll-snap-x snap-mandatory '>
                 {
                     filteredProjects.map(project =>(
-                        <ProjectCard key={project.id} project={project} />
+                        <li className='mr-4 flex'>
+                            <ProjectCard key={project.id} project={project} />  
+                        </li>
                     ))
                 }
-            </div>
-        </div>
+        </ul>
     );
 };

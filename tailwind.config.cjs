@@ -12,7 +12,8 @@ module.exports = {
       'color-border':'#ededed1a',
       'main-color-text':'#00adb5',
       'bg-second-btn': '#393e46b3',
-      'bg-icons':'#737373'
+      'bg-icons':'#737373',
+      'bg-project':'#393e46b3'
     }
   },
   plugins: [],

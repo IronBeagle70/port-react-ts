@@ -32,8 +32,10 @@ export default function Projects({projectsCategory}: ProjectsProps) {
                 </div>
                 <ProjectButtons projectsCategory = {projectsCategory} handleCategoryClick={handleCategoryClick} selectedCategory={activeCategory} />
             </div>
-            <div className='card'>
-                <ProjectCarousel filteredProjects = {filteredProjects} /> 
+            <div className='w-full mb-[20vmin]'>
+                <div className='flex flex-nowrap'>
+                    <ProjectCarousel filteredProjects = {filteredProjects} /> 
+                </div>
             </div>
         </div>
     );
