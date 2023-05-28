@@ -93,7 +93,8 @@ body{
 }
 
 .li-card{
-  width: calc(((100% + 1rem) / 3) - 1rem);
+  min-width: calc(((100% + 1rem) / 3) - 1rem);
+  height: auto;
 }
 
 ::-webkit-scrollbar{
@@ -121,6 +122,17 @@ body{
   }
   .head-width{
     width: calc(100% - 5px);
+  }
+  .li-card{
+    min-width: calc(((100% + 1rem) / 2) - 1rem);
+    height: auto;
+  }
+}
+
+@media only screen and (max-width:400px){
+  .li-card{
+    min-width: calc(((100% + 1rem) / 1) - 1rem);
+    height: auto;
   }
 }
 

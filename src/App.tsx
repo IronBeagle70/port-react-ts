@@ -5,6 +5,7 @@ import HeaderComponent from './components/HeaderComponent'
 import Projects from './components/Projects'
 import SectionComponent from './components/SectionComponent'
 import Welcome from './components/Welcome'
+import Aboutme from './components/Aboutme'
 import { projects } from './projects'
 // import reactLogo from './assets/react.svg'
 // import './App.css'
@@ -19,7 +20,7 @@ function App() {
         <Welcome />
       </SectionComponent>
       <SectionComponent id='about' >
-        <p>About me</p>
+        <Aboutme />
       </SectionComponent>
       <SectionComponent id='projects' >
         <Projects projectsCategory={projects} />

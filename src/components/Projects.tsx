@@ -33,8 +33,12 @@ export default function Projects({projectsCategory}: ProjectsProps) {
                 <ProjectButtons projectsCategory = {projectsCategory} handleCategoryClick={handleCategoryClick} selectedCategory={activeCategory} />
             </div>
             <div className='w-full mb-[20vmin]'>
-                <div className='flex flex-nowrap'>
-                    <ProjectCarousel filteredProjects = {filteredProjects} /> 
+                <div>
+                    <div>
+                        <div className='overflow-hidden relative w-full'>
+                            <ProjectCarousel filteredProjects = {filteredProjects} /> 
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

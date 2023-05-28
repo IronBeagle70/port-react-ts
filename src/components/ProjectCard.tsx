@@ -8,10 +8,11 @@ interface ProjectCardProps{
 
 export default function ProjectCard({project}: ProjectCardProps) {
     return (
-        <div className='bg-bg-project flex flex-col w-96 h-80 rounded-2xl'>
-            <img className='h-[85%] m-auto object-contain w-[85%]' src={project.image} alt={project.title} />
+        <div className='bg-bg-project h-full w-full flex rounded-2xl'>
+
+            <img className='h-[85%] w-[85%] m-auto object-contain'  alt={project.title} />
             {/* <div className='front'></div>
-            <div className='back'>
+                <div className='back'>
                 <h2>{project.title}</h2>
                 <p>{project.description}</p>
                 <div>
