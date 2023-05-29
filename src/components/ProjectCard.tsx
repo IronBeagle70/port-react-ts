@@ -10,7 +10,7 @@ export default function ProjectCard({project}: ProjectCardProps) {
     return (
         <div className='bg-bg-project h-full w-full flex rounded-2xl'>
 
-            <img className='h-[85%] w-[85%] m-auto object-contain'  alt={project.title} />
+            <img className='h-[85%] w-[85%] m-auto object-contain' src={project.image} alt={project.title} />
             {/* <div className='front'></div>
                 <div className='back'>
                 <h2>{project.title}</h2>

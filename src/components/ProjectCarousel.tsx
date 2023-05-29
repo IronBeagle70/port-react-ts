@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import { Project } from '../interfaces/Project';
 import { ProjectCategory } from '../interfaces/ProjectCategory';
 import ProjectCard from './ProjectCard';
+import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
 
 interface ProjectCarouselProps{
     filteredProjects: Project[];
@@ -38,12 +39,10 @@ export default function ProjectCarousel({filteredProjects}: ProjectCarouselProps
                     ))
                 }
             </ul>
-            <button onClick={handlePrevClick}>
-                Prev
-            </button>
-            <button onClick={handleNextClick}>
-                Next
-            </button>
+            <div className='flex items-center justify-between mt-2'>
+                <FaArrowCircleLeft className='text-main-color-text text-2xl cursor-pointer' onClick={handlePrevClick}></FaArrowCircleLeft>
+                <FaArrowCircleRight className='text-main-color-text text-2xl cursor-pointer' onClick={handleNextClick}></FaArrowCircleRight>
+            </div>
         </>
     );
 };
