@@ -12,25 +12,25 @@ export default function FooterSection() {
                         <li>
                             <a className='text-sm min-[500px]:text-base text-color-text flex items-center justify-center min-[450px]:p-4 hover:text-main-color-text transition-all duration-200 ease-in-out' href="#welcome">
                                 <FiHome className='footer-icons transition-none text-color-text' />
-                                Home
+                                Inicio
                             </a>
                         </li>
                         <li>
                             <a className='text-sm min-[500px]:text-base text-color-text flex items-center min-[450px]:p-4 hover:text-main-color-text transition-all duration-200 ease-in-out' href="#about">
                                 <FiUser className='footer-icons transition-none text-color-text' />
-                                About me
+                                Sobre mí
                             </a>
                         </li>
                         <li>
                             <a className='text-sm min-[500px]:text-base text-color-text flex items-center min-[450px]:p-4 hover:text-main-color-text transition-all duration-200 ease-in-out' href="#contact">
                                 <FiMail className='footer-icons transition-none text-color-text' />
-                                Contact
+                                Contacto
                             </a>
                         </li>
                     </ul>
                 </nav>
                 <div className='text-color-text text-base min-[500px]:text-lg flex items-center'>
-                    Project: <a href="https://github.com/IronBeagle70/port-react-ts" target="_blank" rel="noopener noreferrer" className='ml-2 font-bold text-main-color-text btn-text-shadow hover:text-color-text' >Repository link</a>
+                    Project: <a href="https://github.com/IronBeagle70/port-react-ts" target="_blank" rel="noopener noreferrer" className='ml-2 font-bold text-main-color-text btn-text-shadow hover:text-color-text' >Link del repositorio</a>
                 </div>
             </div>
         </div>

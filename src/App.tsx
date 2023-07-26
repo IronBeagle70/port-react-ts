@@ -7,6 +7,7 @@ import SectionComponent from './components/SectionComponent'
 import Welcome from './components/Welcome'
 import Aboutme from './components/Aboutme'
 import { projects } from './projects'
+import { semanas } from './data/semanas'
 // import reactLogo from './assets/react.svg'
 // import './App.css'
 
@@ -23,7 +24,7 @@ function App() {
         <Aboutme />
       </SectionComponent>
       <SectionComponent id='projects' >
-        <Projects projectsCategory={projects} />
+        <Projects projectsCategory={semanas} />
       </SectionComponent>
       <SectionComponent id='contact' >
         <Contact />

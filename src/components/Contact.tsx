@@ -6,8 +6,8 @@ export default function Contact() {
             <div className='flex flex-col flex-1 gap-5 sm:gap-7 mb-[5vmin]'>
                 <div className='flex justify-center items-center'>
                     <h1 className='flex flex-col justify-center items-center flex-1 gap-3 sm:gap-6'>
-                        <span className='font-normal text-center text-color-text text-2xl min-[350px]:text-3xl min-[425px]:text-4xl sm:text-5xl lg:text-6xl'>Let's work together!</span>
-                        <span className='font-normal text-center italic text-main-color-text text-xl min-[350px]:text-2xl min-[425px]:text-3xl sm:text-4xl lg:text-5xl'>How would you like to contact me?</span>
+                        <span className='font-normal text-center text-color-text text-2xl min-[350px]:text-3xl min-[425px]:text-4xl sm:text-5xl lg:text-6xl'>Trabajemos juntos!</span>
+                        <span className='font-normal text-center italic text-main-color-text text-xl min-[350px]:text-2xl min-[425px]:text-3xl sm:text-4xl lg:text-5xl'>Cómo desea contactarme?</span>
                     </h1>
                 </div>
                 <div>

@@ -9,13 +9,13 @@ export default function HeaderComponent() {
             <nav>
                 <ul className='flex items-center justify-center gap-[10px]'>
                     <li>
-                        <a className='head-padding hover:text-main-color-text transition-all duration-200 ease-in-out' href="#welcome">Home</a>
+                        <a className='head-padding hover:text-main-color-text transition-all duration-200 ease-in-out' href="#welcome">Inicio</a>
                     </li>
                     <li>
-                        <a className='head-padding hover:text-main-color-text transition-all duration-200 ease-in-out' href="#about">About me</a>
+                        <a className='head-padding hover:text-main-color-text transition-all duration-200 ease-in-out' href="#about">Sobre mí</a>
                     </li>
                     <li>
-                        <a className='head-padding hover:text-main-color-text transition-all duration-200 ease-in-out' href="#contact">Contact</a>
+                        <a className='head-padding hover:text-main-color-text transition-all duration-200 ease-in-out' href="#contact">Contacto</a>
                     </li>
                 </ul>
             </nav>
